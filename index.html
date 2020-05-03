@@ -9,71 +9,117 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./Assets/CSS/style.css" />
   <title>Work Day Scheduler</title>
 </head>
 
 <body>
+  <!--Header-->
   <header class="jumbotron">
     <h1 class="display-3">Work Day Scheduler</h1>
     <p class="lead">A simple calendar app for scheduling your work day</p>
     <p id="currentDay" class="lead"></p>
   </header>
+
+  <!--Main Container-->
   <div class="container">
-    <div class="time-block">
-      <h2 class="hour">8 A.M.</h2>
-      <input type="text" placeholder="Enter Task" id=8am class="form-control input-group-text row" />
-      <button type="button" class="btn btn-primary btn-lg saveBtn"><i class="fas fa-save"></i></button>
+
+    <!--Time Row Block Containers for each hour-->
+    <div class="row">
+      <!--Time Block-->
+      <div class="col-md-1 hour">9 A.M.</div>
+      <!--Input area-->
+      <textarea class="col-md-10 description" data-time="9" placeholder="Enter Task"></textarea>
+      <!--Button-->
+      <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
     </div>
-    <div class="time-block">
-      <h2 class="hour">9 A.M.</h2>
-      <input type="text" placeholder="Enter Task" id=9am class="form-control input-group-text row" />
-      <button type="button" class="btn btn-primary btn-lg saveBtn"><i class="fas fa-save"></i></button>
+
+    <!--Time Row Block Containers for each hour-->
+    <div class="row">
+      <!--Time Block-->
+      <div class="col-md-1 hour">10 A.M.</div>
+      <!--Input area-->
+      <textarea class="col-md-10 description" data-time="10" placeholder="Enter Task"></textarea>
+      <!--Button-->
+      <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
     </div>
-    <div class="time-block">
-      <h2 class="hour">10 A.M.</h2>
-      <input type="text" placeholder="Enter Task" id=10am class="form-control input-group-text row" />
-      <button type="button" class="btn btn-primary btn-lg saveBtn"><i class="fas fa-save"></i></button>
+
+    <!--Time Row Block Containers for each hour-->
+    <div class="row">
+      <!--Time Block-->
+      <div class="col-md-1 hour">11 A.M.</div>
+      <!--Input area-->
+      <textarea class="col-md-10 description" data-time="11" placeholder="Enter Task"></textarea>
+      <!--Button-->
+      <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
     </div>
-    <div class="time-block">
-      <h2 class="hour">11 A.M.</h2>
-      <input type="text" placeholder="Enter Task" id=11am class="form-control input-group-text row" />
-      <button type="button" class="btn btn-primary btn-lg saveBtn"><i class="fas fa-save"></i></button>
+
+    <!--Time Row Block Containers for each hour-->
+    <div class="row">
+      <!--Time Block-->
+      <div class="col-md-1 hour">12 P.M.</div>
+      <!--Input area-->
+      <textarea class="col-md-10 description" data-time="12" placeholder="Enter Task"></textarea>
+      <!--Button-->
+      <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
     </div>
-    <div class="time-block">
-      <h2 class="hour">12 P.M.</h2>
-      <input type="text" placeholder="Enter Task" id=12pm class="form-control input-group-text row" />
-      <button type="button" class="btn btn-primary btn-lg saveBtn"><i class="fas fa-save"></i></button>
+
+    <!--Time Row Block Containers for each hour-->
+    <div class="row">
+      <!--Time Block-->
+      <div class="col-md-1 hour">1 P.M.</div>
+      <!--Input area-->
+      <textarea class="col-md-10 description" data-time="13" placeholder="Enter Task"></textarea>
+      <!--Button-->
+      <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
     </div>
-    <div class="time-block">
-      <h2 class="hour">1 P.M.</h2>
-      <input type="text" placeholder="Enter Task" id=1pm class="form-control input-group-text row" />
-      <button type="button" class="btn btn-primary btn-lg saveBtn"><i class="fas fa-save"></i></button>
+
+    <!--Time Row Block Containers for each hour-->
+    <div class="row">
+      <!--Time Block-->
+      <div class="col-md-1 hour">2 P.M.</div>
+      <!--Input area-->
+      <textarea class="col-md-10 description" data-time="14" placeholder="Enter Task"></textarea>
+      <!--Button-->
+      <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
     </div>
-    <div class="time-block">
-      <h2 class="hour">2 P.M.</h2>
-      <input type="text" placeholder="Enter Task" id=2pm class="form-control input-group-text row" />
-      <button type="button" class="btn btn-primary btn-lg saveBtn"><i class="fas fa-save"></i></button>
+
+    <!--Time Row Block Containers for each hour-->
+    <div class="row">
+      <!--Time Block-->
+      <div class="col-md-1 hour">3 P.M.</div>
+      <!--Input area-->
+      <textarea class="col-md-10 description" data-time="15" placeholder="Enter Task"></textarea>
+      <!--Button-->
+      <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
     </div>
-    <div class="time-block">
-      <h2 class="hour">3 P.M.</h2>
-      <input type="text" placeholder="Enter Task" id=3pm class="form-control input-group-text row" />
-      <button type="button" class="btn btn-primary btn-lg saveBtn"><i class="fas fa-save"></i></button>
+
+    <!--Time Row Block Containers for each hour-->
+    <div class="row">
+      <!--Time Block-->
+      <div class="col-md-1 hour">4 P.M.</div>
+      <!--Input area-->
+      <textarea class="col-md-10 description" data-time="16" placeholder="Enter Task"></textarea>
+      <!--Button-->
+      <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
     </div>
-    <div class="time-block">
-      <h2 class="hour">4 P.M.</h2>
-      <input type="text" placeholder="Enter Task" id=4pm class="form-control input-group-text row" />
-      <button type="button" class="btn btn-primary btn-lg saveBtn"><i class="fas fa-save"></i></button>
+
+    <!--Time Row Block Containers for each hour-->
+    <div class="row">
+      <!--Time Block-->
+      <div class="col-md-1 hour">5 P.M.</div>
+      <!--Input area-->
+      <textarea class="col-md-10 description" data-time="17" placeholder="Enter Task"></textarea>
+      <!--Button-->
+      <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
     </div>
-    <div class="time-block">
-      <h2 class="hour">5 P.M.</h2>
-      <input type="text" placeholder="Enter Task" id=5pm class="form-control input-group-text row" />
-      <button type="button" class="btn btn-primary btn-lg saveBtn"><i class="fas fa-save"></i></button>
-    </div>
+
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./Assets/Script/script.js"></script>
 </body>
 
 </html>
