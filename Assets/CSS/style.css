@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  background-color: whitesmoke;
 }
 
 textarea{
@@ -39,23 +40,31 @@ textarea{
 .hour {
   background-color: #ffffff;
   color: #000000;
-  border-top: 1px dashed #000000;
+  border-top: 2px dashed #000000;
+  font-size: 18px;
+  font-weight: bold;
  
 }
 
 .past {
   background-color: gray;
   color: white;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .present {
   background-color: #ff6961;
   color: white;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .future {
   background-color: green;
   color: white;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .saveBtn {
@@ -72,6 +81,9 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
-placeholder {
-  font: red;
+::placeholder {
+  font-style: italic;
+  font-weight: bold;
+  color: yellowgreen;
+  text-align: center;
 }
