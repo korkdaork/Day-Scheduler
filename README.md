@@ -1,7 +1,7 @@
 # Day-Scheduler
 https://korkdaork.github.io/Day-Scheduler/
 
-Work Day Scheduler.  A simpliefied build to help you create a daily schedule for your work-day.  
+Work Day Scheduler. A simplified build to help you create a daily schedule for your work-day. 
 
 ## Getting Started
 
